@@ -15,7 +15,7 @@ spec:
         app: Flaskapp
     spec:
       containers:
-        - name: Flaskapp-container
+        - name: flaskapp-container
           image: raptor4444/flaskapp2:v1
           env:
             - name: MYSQL_HOST
